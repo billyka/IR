@@ -1,11 +1,11 @@
 public class TestClass {
     public static void main(String[] args){
     String sentence = "The cow jumped over the moon.";
-    System.out.println(longestWorld(sentence));
+    System.out.println(longestWord(sentence));
 
     }
 
-    public static String longestWorld(String sentence){
+    public static String longestWord(String sentence){
         String[] arr = sentence.split(" ");
         int max =0;
         String longest=" ";
